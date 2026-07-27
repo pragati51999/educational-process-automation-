@@ -1,19 +1,36 @@
-# educational-process-automation-
-Educational Process Automation: Improving Student Engagement Using AI. This project uses machine learning models and a Streamlit dashboard to analyze study habits, attendance, and performance data, helping educators improve engagement and predict exam outcomes.
-### Dataset
-The project uses `student_data_cleaned.csv` containing columns:
+
+# Educational Process Automation: Improving Student Engagement Using AI
+
+## Overview
+This project uses machine learning models to analyze student data and predict exam performance. It aims to help educators improve engagement through data-driven insights.
+
+## Dataset
+The dataset (`student_data_cleaned.csv`) includes:
 - Hours_Studied
 - Attendance
 - Sleep_Hours
 - Previous_Scores
 - Exam_Score
 
-**Sample rows:**
+## Tools Used
+- Python (Pandas, Scikit-learn, Matplotlib)
+- Streamlit for dashboard visualization
+- GitHub for version control
 
-| Hours Studied | Attendance | Sleep Hours | Previous Scores | Exam Score |
-|---------------|------------|-------------|-----------------|------------|
-| 23            | 84         | 7           | 73              | 67         |
-| 19            | 64         | 8           | 59              | 61         |
-| 24            | 98         | 7           | 91              | 74         |
+## How to Run
+1. Clone the repository.
+2. Install dependencies using `pip install -r requirements.txt`.
+3. Run the Streamlit app:  
+   ```bash
+   streamlit run app.py
+
+Results
+Linear Regression achieved better accuracy (R² = 0.57, MSE = 6.59) compared to Random Forest.
+
+Future Work
+Enhance the model with more features and deploy it for real-time student monitoring.
+
+Author
+Pragati Kamat – MCA Student, Amrita Vishwa Vidyapeetham
 
 
