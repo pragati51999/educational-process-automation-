@@ -35,10 +35,8 @@ It shows that students who studied more hours generally achieved higher exam sco
 
 
 
-3. Attendance vs Exam Score
+2. Attendance vs Exam Score
 This scatter plot shows a positive correlation between attendance and exam performance. Students with higher attendance generally score better, highlighting the importance of consistent participation.
-
-<img width="950" height="737" alt="attendance_vs_exam_score jpeg" src="https://github.com/user-attachments/assets/4ca202f2-db07-4fc0-a2e0-0e978d703ae4" />
 
 
 
